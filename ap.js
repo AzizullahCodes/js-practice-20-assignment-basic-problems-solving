@@ -149,8 +149,43 @@
 //   for(var j = 1; j <=((2*i)-1);j++){
 //   document.write(' * ');
 // }document.write('<br>')}
-for(var i = 1; i <= 5; i++){for(var k = 5 ; k > i ;k--){document.write(' &nbsp;')}
-  for(var j = 1; j<=((2*i)-1);j++){if(i == 1 || i == 5 ||j== 1|| j== ((2*1)-1)){document.write(' * ')}
-  else document.write('&nbsp;&nbsp;')
-    }
-document.write('<br>')}
+// ______________________________________________________________________
+// ques no 12 
+// mirror right angle pattern
+// ans 
+// for(i = 5;i >=1;i--){for(j=1; j<i;j++){document.write(' &nbsp; ')}
+//   for(k = 5; k>=i;k--){document.write('*');}
+//   document.write('<br>');
+// }
+// ___________________________________________________________________
+// ques no 13 
+// star pattern 
+// ans 
+// for(var i = 1; i <=5; i++){for(var j = 1; j <=i; j++){
+//     document.write('*')
+// }
+// document.write('<br>')}
+// _____________________________________________________________________________
+// ques no 14 
+// star pattern
+// for(var i = 1; i<=5; i++){
+//     for(j = 5; j >= i; j--){document.write('*')}
+//     document.write('<br>')
+// }
+// ________________________________________________________________________
+// ques no 15 
+// star pattern 
+// ans 
+// for(var i = 1; i <= 5; i++){for(var k = 5; k >i; k--){document.write('&nbsp;')}
+
+//     for(var j = 1; j<=i; j++){document.write('  *  ')}
+//     document.write('<br>')
+// }
+// ______________________________________________________________________________
+// ques no 16 
+// star pattern 
+// for(var i= 1; i <= 5; i++){for(var j = 1; j<= 5; j++)
+// {if(i ==1 || i == 5 || j == 1 || j == 5)
+//     {document.write(' * ');}else document.write('  &nbsp;&nbsp  ')}
+// document.write('<br>')
+// }
