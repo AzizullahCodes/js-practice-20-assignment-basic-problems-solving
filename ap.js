@@ -127,18 +127,19 @@
 // ques 11 
 // Assignment 5: 1 to 10 Multiplication Table
 
-// Write a program to print a multiplication table from 1 to 10 (formatted nicely):
+// Write a program to print a multiplication table from 1 to 10 
+// (formatted nicely):
 // 1  2  3  4  5  6  7  8  9  10
 // 2  4  6  8 10 12 14 16 18  20
 // 3  6  9 12 15 18 21 24 27  30
 // ...
 // 10 20 30 40 50 60 70 80 90 100
 // ans 
-// for(let  i = 1; i <= 10; i++){var str = '';
-//   for(let j = 1; j <=10 ; j++){str = str + i*j + '  ';}
-// console.log(str)
+ for(let  i = 1; i <= 10; i++){var str = '';
+   for(let j = 1; j <=10 ; j++){str = str + i*j + '  ';}
+ console.log(str)
 
-// }
+ }
 // ______________________________________________________________________________________
 // ques no 12 
 // hollow pyramid 
@@ -517,4 +518,34 @@
 // for(row = 20; row > 0; row--){for(col = 1; col <= row; col++)
 // {document.write('&nbsp;&nbsp;',col*53,'&nbsp;&nbsp;')}
 // document.write("<br>")
+// }
+// _________________________________________________________________________________
+// ques no 43 
+// array practice 
+// ans 
+// let students = [];
+// console.log(students);
+// students.splice(0,0,'ali','hmza','umair','fahad');
+// console.log(students);
+// ________________________________________________________________________________________
+// ques no 44 
+// hollow square star pattern 
+// ans 
+// for(i = 1; i<=5;i++){
+//     for(k = 1; k <=5;k++){if(i == 1 || i == 5 ||k == 1||k== 5){ document.write('*');}
+//         else document.write('&nbsp;&nbsp;')}
+   
+//     document.write('<br>')}
+// ______________________________________________________________________________________
+// ques no 45 
+// 🔢 Number Patterns
+// Row-wise Number Pattern
+// 1 2 3
+// 1 2 3
+// 1 2 3
+// Task: Print numbers in each row using nested loops.
+// // ans 
+// for(let row = 1; row <= 3; row++){for(let col = 1; col <= 3; col++)
+// {document.write(col,'&nbsp;')}
+// document.write('<br>')
 // }
