@@ -481,4 +481,40 @@
 //  enterObtainedMarks < 60 && enterObtainedMarks > 30? 'Grade F':
 //  'Fail';
 // console.log(grade);
-
+// _________________________________________________________________________
+// ques no 40 
+// 🔁 Assignment 4: Checkerboard Pattern
+// Objective: Print a 5x5 grid of alternating 1s and 0s:
+// 1 0 1 0 1
+// 0 1 0 1 0
+// 1 0 1 0 1
+// 0 1 0 1 0
+// 1 0 1 0 1
+// ans 
+// for(var i = 1; i<=5 ; i ++){for(var j = 1; j <= 5; j++)
+//     if((i+j) % 2 === 0){document.write(1,'&nbsp;&nbsp;')}
+//     else{document.write(0,'&nbsp;&nbsp;')}
+//     document.write('<br>')
+// }
+// __________________________________________________________________________________________
+// ques no  41 
+// Assignment 2: Number Pyramid
+// Task: Print the following pattern using nested loops (up to 20 rows):
+// 1
+// 1 2
+// 1 2 3
+// 1 2 3 4
+// 1 2 3 4 5 
+// ans 
+//  for(var row = 1; row <= 20; row++){for(var col = 1; col <= row; col++)
+//     { document.write('&nbsp;&nbsp;',col*53,'&nbsp;&nbsp;')}
+//     document.write('<br>')
+//  } 
+// _____________________________________________________________________________________
+// ques no 42 
+// revers 41 Question
+// ans 
+// for(row = 20; row > 0; row--){for(col = 1; col <= row; col++)
+// {document.write('&nbsp;&nbsp;',col*53,'&nbsp;&nbsp;')}
+// document.write("<br>")
+// }
