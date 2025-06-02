@@ -189,3 +189,70 @@
 //     {document.write(' * ');}else document.write('  &nbsp;&nbsp  ')}
 // document.write('<br>')
 // }
+// ___________________________________________________________________________
+// ques no 17 
+// 🟢 Basic Level
+// Multiplication Table
+// Print a multiplication table from 1 to 10 using nested loops.
+// 1  2  3  4  5  ...
+// 2  4  6  8  10 ...
+// ... 
+// ans 
+// for(var i = 1; i <=10; i++){for(var j = 1; j <=10; j++)
+//    { document.write(i*j,'&nbsp;&nbsp;')}
+//    document.write(' <br>')
+// }
+// _________________________________________________________________________________________
+// ques no 18 
+// 🟡 Intermediate Level
+// Number Pyramid
+// Output:
+// 1
+// 1 2
+// 1 2 3
+// 1 2 3 4
+// 1 2 3 4 5
+// ans 
+// for(var i = 1; i <= 5; i++){for(var j = 1; j <=i; j++){
+//     document.write('&nbsp;&nbsp;',j)
+// }
+// document.write(' <br> ')}
+// ________________________________________________________________________________________
+// ques no 19 
+// Multiplication Table (Formatted)
+
+// Print a table like:
+// 1x1=1   1x2=2   ... 1x10=10
+// 2x1=2   2x2=4   ... 2x10=20
+// ...
+// 10x1=10 ...     10x10=100
+// ans 
+// for(var i = 1; i <= 10; i++){for(var j = 1; j <=10; j++){
+//     document.write(`&nbsp;&nbsp;&nbsp;${i}x${j}=${i * j}`)
+// }
+// document.write(' <br> ')}
+// __________________________________________________________________
+// ques no 20 
+// // . Character Triangle
+// A
+// B B
+// C C C
+// D D D D
+// ans 
+// for(var i = 1; i <= 4; i++){for(var j = 1; j<=i;j++){document.write('A')}
+// document.write('<br>')}
+// _________________________________________________________________________________
+// ques no 21 
+// 8. Hollow Right-Angled Triangle
+// *
+// * *
+// *   *
+// *     *
+// *******
+// ans 
+for(var i = 1; i <= 5; i++){for(var j = 1; j<=i;j++)
+{if(i == 1 || i == 5 || j == 1 || j == i)
+    document.write('*')
+for(var k = 1; k <=i; k++){document.write('&nbsp;')}}
+document.write('<br>')
+}
