@@ -240,20 +240,20 @@
 // C C C
 // D D D D
 // ans 
-// for(var i = 1; i <= 4; i++){for(var j = 1; j<=i;j++){document.write('A')}
-// document.write('<br>')}
+ for(var i = 1; i <= 4; i++){for(var j = 1; j<=i;j++){document.write('A')}
+ document.write('<br>')}
 // _________________________________________________________________________________
 // ques no 21 
 // Print numbers from 1 to 10
 // Output: 1 2 3 4 5 6 7 8 9 10
 // ans 
-// for(var i = 1; i < 11; i++){document.write('&nbsp;',i)}
+ for(var i = 1; i < 11; i++){document.write('&nbsp;',i)}
 // __________________________________________________________________________________
 // ques no 22
 // Print even numbers from 1 to 20
 // Output: 2 4 6 8 10 12 14 16 18 20
 // ans 
-// for(var i = 2; i < 21; i++){if(i % 2 === 0){document.write('&nbsp;',i)}}
+ for(var i = 2; i < 21; i++){if(i % 2 === 0){document.write('&nbsp;',i)}}
 // ___________________________________________________________________________________
 // ques no 23 
 // Print the multiplication table of 5
@@ -263,9 +263,9 @@
 // ...  
 // 5 x 10 = 50
 // ans 
-// for(var i = 1; i<=10; i++){document.write('5 *'+ i +' = '+ 5 * i)
-//     document.write('<br>')
-// }
+ for(var i = 1; i<=10; i++){document.write('5 *'+ i +' = '+ 5 * i)
+     document.write('<br>')
+ }
 // ____________________________________________________________________________________
 // ques no 24 
 // Calculate the sum of numbers from 1 to 100
